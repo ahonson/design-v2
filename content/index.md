@@ -1,25 +1,30 @@
 ---
 title: "Min fina titel"
 ---
-Min me-sida i kursen design
+Arons me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+## Därför pluggar jag igen
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+[FIGURE src="image/gloria.png?w=300" class="right" caption="Bild på mig"]
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag heter Aron Tési. Jag är född 1984 och har bott i Budapest nästan hela mitt liv (bortsett från ett antal vistelser i Sverige och Polen). Jag har alltid varit intresserad av språk. Jag började läsa engelska och ryska när jag gick i grundskolan, tyska och latin på gymnasiet och sedan svenska och polska på universitetet.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Jag har arbetat som språklärare i över 10 år. Min kusin som själv är programmerare introducerade mig till Python för några år sedan. I takt med att jag förstått hur pass mycket som kan automatiseras inom språkinlärning har jag blivit alltmer intresserad av programmering och webben. Jag läser inte för att omskola mig utan för att kunna effektivisera min undervisning med hjälp av datorn. Men man vet ju aldrig vad framtiden bär i sitt sköte...
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+## På fritiden
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+[FIGURE src="image/i_trogir.jpg?w=300" class="right" caption="På semester"]
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Jag har två barn i förskoleåldern som tar nästan all min lediga tid. När jag var ung spelade jag valthorn i en blåsorkester och schack i en förening som anordnade tävlingar med jämna mellanrum. Nuförtiden får jag nöja mig med korrpartier och med att spela munspel då och då.
 
-Vi syns och hörs i forum och chatt!
+Jag gillar både klassisk och popmusik. Här följer några av mina favoriter:
 
-/Mikael
+* [FAB4](https://en.wikipedia.org/wiki/The_Beatles)
+* [LGT](https://en.wikipedia.org/wiki/Locomotiv_GT)
+* [ZEP](https://en.wikipedia.org/wiki/Led_Zeppelin)
+* [CCR](https://en.wikipedia.org/wiki/Creedence_Clearwater_Revival)
+
+/Aron
