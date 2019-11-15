@@ -33,9 +33,11 @@ Jag har två barn i förskoleåldern som tar nästan all min lediga tid. När ja
 
 Jag gillar både klassisk och popmusik. Här följer några av mina favoriter:
 
+<div class="music" markdown=1>
 * [FAB4](https://en.wikipedia.org/wiki/The_Beatles)
 * [LGT](https://en.wikipedia.org/wiki/Locomotiv_GT)
 * [ZEP](https://en.wikipedia.org/wiki/Led_Zeppelin)
 * [CCR](https://en.wikipedia.org/wiki/Creedence_Clearwater_Revival)
+</div>
 
 /Aron

@@ -29,4 +29,4 @@ Kod skrivs med hjälp av 3 + 3 backticks: ```print("Hello")```
 
 En länk: [google](https://www.google.com/) -- [google]\(https://www.google.com/\)
 
-En bild: ![Norrsken](img/brick_wall.jfif) -- som en länk men med ett utropstecken framför
+En bild: ![Bil](img/car.png) -- som en länk men med ett utropstecken framför
