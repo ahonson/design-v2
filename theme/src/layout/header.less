@@ -56,9 +56,22 @@
     display: none;
 }
 
+
 /**
-* Header layout
+* Breadcrumb layout
 */
+
+.breadcrumb-list li {
+    display: inline;
+    font-size: larger;
+    padding: 5px;
+    &+li:before {
+        content: "/\00a0";
+    }
+    & a {
+        text-decoration: none;
+    }
+}
 
 // .region-header-col-1 {
 //     float: left;

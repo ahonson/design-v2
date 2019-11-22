@@ -4749,6 +4749,9 @@ template {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+* {
+  box-sizing: border-box;
+}
 html {
   overflow-y: scroll;
   background-color: #e8f4f8;
@@ -4815,8 +4818,19 @@ img {
   display: none;
 }
 /**
-* Header layout
+* Breadcrumb layout
 */
+.breadcrumb-list li {
+  display: inline;
+  font-size: larger;
+  padding: 5px;
+}
+.breadcrumb-list li + li:before {
+  content: "/\00a0";
+}
+.breadcrumb-list li a {
+  text-decoration: none;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -4999,6 +5013,7 @@ img {
 .footer-column {
   width: 33%;
   float: left;
+  padding: 5px;
 }
 .region-footer > .block {
   clear: both;
@@ -5017,6 +5032,26 @@ img {
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+    float: left;
+  }
+  .region-header-col-2 {
+    width: 70%;
+    float: left;
+    text-align: center;
+  }
+  .my-navbar li a {
+    padding: 0.5em;
+  }
+}
+@media screen and (max-width: 900px) {
+  .region-header-col-2 {
     display: none;
   }
 }
