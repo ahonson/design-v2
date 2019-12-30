@@ -1,6 +1,12 @@
 Revision history
 ===================
 
+v3.0.* (2019-12-30)
+-------------------
+
+* Adding the grid (desinax) and typography.
+
+
 v2.0.* (2019-11-22)
 -------------------
 

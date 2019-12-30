@@ -1,0 +1,54 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+/**
+ * Fonts from Google
+ */
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap&subset=latin-ext');
+
+
+@bgColorHtml: #e8f4f8; //#424242;
+@bgColorBody: @bgColorHtml;
+@bgColorFooter: #411608;
+@colorBody: #333;
+@colorFooter: #fff;
+@fontFamilyHeadings: 'Libre Baskerville', serif;
+@fontFamilyBody: 'Raleway', sans-serif;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorHtml; //@bgColorBody;
+    font-family: @fontFamilyBody;
+    // font: 100.01%/1 @fontFamilyBody;
+
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: @fontFamilyHeadings;
+}
+
+img {
+    max-width: 100%;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
