@@ -17,6 +17,8 @@
 
 .my-navbar {
     list-style-type: none;
+    background-color: @bgNavbar;
+    color: @colorNavbar;
     // padding: 25px;
 }
 
@@ -26,20 +28,20 @@
     // border: black 1px solid;
     border-radius: 5px;
     // background-color: #87ceeb; //#567;
-    color: @colorBody;
+    // color: @colorBody;
     // margin: 5px;
     & ul {
         display: none;
     }
     &:hover {
-        background-color: #65acc9;
-        outline-bottom: black 2px solid;
+        background-color: @bgNavLinkHover;
+        // outline-top: black 2px solid;
     }
 }
 
 .my-navbar li a {
     text-decoration: none;
-    color: #fff;
+    // color: @colorNavbar;
     font-size: 20px;
 }
 
@@ -68,6 +70,13 @@
 /**
 * Breadcrumb layout
 */
+
+.inner-wrap-breadcrumb {
+    background-color: @bgBreadcrumb;
+    & a {
+        color: @colorBreadcrumb;
+    }
+}
 
 .breadcrumb-list li {
     display: inline;
@@ -112,6 +121,8 @@
 
 .inner-wrap-main {
     // padding: 25px 0;
+    background-color: @bgMain;
+    color: @colorMain;
 }
 
 
@@ -127,12 +138,34 @@
     &.has-sidebar-left.has-sidebar-right {
         #desinax-vgrid.column(@columns - 10);
     }
+    & a {
+        color: @colorMainLInk;
+    }
     margin-bottom: @magicNumber * 2;
 }
 
 /**
 * Sidebar layout
 */
+
+.wrap-sidebar {
+    background-color: @bgSidebar;
+    color: @colorSidebar;
+    & ul {
+        list-style: none;
+    }
+    & ul li {
+        padding-bottom: @magicNumber;
+        &:hover {
+            background-color: @bgSidebarHover;
+        }
+    }
+    & ul li a {
+        color: @colorSidebarLink;
+        text-decoration: none;
+    }
+}
+
 .region-sidebar-left,
 .region-sidebar-right {
     #desinax-vgrid.column(@columns / 4);
@@ -226,7 +259,7 @@
     list-style-type: none;
     padding: 12px;
     // outline: 1px solid;
-    background-color: #147;
+    background-color: @bgMusicList;
     border-radius: 10px;
     margin-bottom: 12px;
     text-align: center;
@@ -234,7 +267,8 @@
 
 .music ul li a {
     text-decoration: none;
-    color: #fff;
+    color: @colorMusicList;
+    // color: #fff;
 }
 
 /**
@@ -244,8 +278,10 @@
 .byline {
     clear: both;
     outline: 1px black solid;
+    overflow: auto;
     // max-width: 600px;
-    background-color: #def; //@colorFooter;
+    // background-color: @bgByline; //#def;
+    .setBylineColors(@bgMain);
     // margin-top: 50px;
 }
 
@@ -276,9 +312,10 @@
 }
 
 .inner-wrap-header {
-
     #desinax-vgrid.grid(100%);
     border-bottom: 1px solid black;
+    background-color: @bgHeader;
+    color: @colorHeader;
 }
 
 .inner-wrap-header .row {

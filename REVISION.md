@@ -1,6 +1,12 @@
 Revision history
 ===================
 
+v4.0.* (2020-01-04)
+-------------------
+
+* Adding color themes and a report on color themes of chess webpages.
+
+
 v3.0.* (2019-12-30)
 -------------------
 

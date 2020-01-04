@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Tage D
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Utan tvivel är man inte riktigt klok.

@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Basil F
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Listen, don’t mention the war! I mentioned it once, but I think I got away with it all right.

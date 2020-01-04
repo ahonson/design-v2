@@ -4817,15 +4817,15 @@ template {
 }
 html {
   overflow-y: scroll;
-  background-color: #e8f4f8;
+  background-color: #0e3761;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #e8f4f8;
-  font-family: 'Raleway', sans-serif;
-  font: 20px/1.2 'Raleway', sans-serif;
+  color: #ccc;
+  background-color: #333;
+  font-family: 'Ubuntu Mono', monospace;
+  font: 20px/1.2 'Ubuntu Mono', monospace;
 }
 h1,
 h2,
@@ -4833,7 +4833,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Patua One', cursive;
 }
 img {
   max-width: 100%;
@@ -4844,7 +4844,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Patua One', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5168,8 +5168,8 @@ hr::after {
  */
 .my-navbar {
   list-style-type: none;
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #111;
+  color: #eee;
 }
 .my-navbar li {
   display: inline-block;
@@ -5179,7 +5179,7 @@ hr::after {
   display: none;
 }
 .my-navbar li:hover {
-  background-color: #65acc9;
+  background-color: #333;
 }
 .my-navbar li a {
   text-decoration: none;
@@ -5206,10 +5206,10 @@ hr::after {
 * Breadcrumb layout
 */
 .inner-wrap-breadcrumb {
-  background-color: #e8f4f8;
+  background-color: #333;
 }
 .inner-wrap-breadcrumb a {
-  color: #333;
+  color: #ccc;
 }
 .breadcrumb-list li {
   display: inline;
@@ -5248,8 +5248,8 @@ hr::after {
   max-width: 1100px;
 }
 .inner-wrap-main {
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #333;
+  color: #ccc;
 }
 .region-main {
   display: inline;
@@ -5278,14 +5278,14 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .region-main a {
-  color: #00f;
+  color: #fff;
 }
 /**
 * Sidebar layout
 */
 .wrap-sidebar {
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #333;
+  color: #ccc;
 }
 .wrap-sidebar ul {
   list-style: none;
@@ -5294,10 +5294,10 @@ hr::after {
   padding-bottom: 24px;
 }
 .wrap-sidebar ul li:hover {
-  background-color: #c1e1ec;
+  background-color: #1a1a1a;
 }
 .wrap-sidebar ul li a {
-  color: #333;
+  color: #ccc;
   text-decoration: none;
 }
 .region-sidebar-left,
@@ -5390,7 +5390,7 @@ hr::after {
   clear: both;
   outline: 1px black solid;
   overflow: auto;
-  background-color: #c1e1ec;
+  background-color: #4d4d4d;
 }
 .byline p {
   padding: 30px 30px 50px 30px;
@@ -5412,8 +5412,8 @@ hr::after {
   margin-left: auto;
   max-width: 100%;
   border-bottom: 1px solid black;
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #111;
+  color: #eee;
 }
 .inner-wrap-header .row {
   margin-right: auto;
@@ -5458,7 +5458,7 @@ hr::after {
 * Footer layout
 */
 .outer-wrap-footer {
-  background-color: #411608;
+  background-color: #0e3761;
   color: #fff;
 }
 .footer-column {
@@ -5799,3 +5799,17 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Patua One'), local('PatuaOne-Regular'), url(https://fonts.gstatic.com/s/patuaone/v10/ZXuke1cDvLCKLDcimxB44_lr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://fonts.gstatic.com/s/ubuntumono/v9/KFOjCneDtsqEr0keqCMhbCc0CsE.ttf) format('truetype');
+}

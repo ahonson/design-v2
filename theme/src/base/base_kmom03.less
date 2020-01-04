@@ -9,11 +9,40 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap&subset=latin-ext');
 
 
+.setBylineColors(@color) when (lightness(@color) >= 50%) {
+    background-color: darken(@color, 10%);
+}
+
+.setBylineColors(@color) when (lightness(@color) <= 50%) {
+    background-color: lighten(@color, 10%);
+}
+
 @bgColorHtml: #e8f4f8; //#424242;
 @bgColorBody: @bgColorHtml;
-@bgColorFooter: #411608;
 @colorBody: #333;
+@bgColorFooter: #411608;
 @colorFooter: #fff;
+@bgHeader: @bgColorBody;
+@colorHeader: @colorBody;
+@bgNavbar: @bgHeader;
+@colorNavbar: @colorHeader;
+@bgMain: @bgColorBody;
+@colorMain: @colorBody;
+@colorMainLInk: #00f;
+@bgSidebar: @bgMain;
+@colorSidebar: @colorMain;
+@bgSidebarHover: darken(@bgSidebar, 10%);
+@bgSidebarLink: @bgSidebar;
+@colorSidebarLink: @colorSidebar;
+@bgBreadcrumb: @bgColorBody;
+@colorBreadcrumb: @colorBody;
+@bgNavLinkHover: #65acc9;
+@colorNavLinkHover: black;
+@bgByline: saturate(@bgMain, 40%);
+@colorByline: saturate(@colorMain, 40%);
+@bgMusicList: #147;
+@colorMusicList: #fff;
+// @NavLinkMarginBottom: 3px dotted brown;
 @fontFamilyHeadings: 'Libre Baskerville', serif;
 @fontFamilyBody: 'Raleway', sans-serif;
 
@@ -30,7 +59,7 @@ body {
     margin: 0;
     padding: 0;
     color: @colorBody;
-    background-color: @bgColorHtml; //@bgColorBody;
+    background-color: @bgColorBody; //@bgColorBody;
     font-family: @fontFamilyBody;
     // font: 100.01%/1 @fontFamilyBody;
 

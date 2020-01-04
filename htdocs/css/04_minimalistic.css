@@ -4817,15 +4817,15 @@ template {
 }
 html {
   overflow-y: scroll;
-  background-color: #e8f4f8;
+  background-color: #333;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #e8f4f8;
-  font-family: 'Raleway', sans-serif;
-  font: 20px/1.2 'Raleway', sans-serif;
+  background-color: #fff;
+  font-family: Arial, Verdana, sans-serif;
+  font: 20px/1.2 Arial, Verdana, sans-serif;
 }
 h1,
 h2,
@@ -4833,7 +4833,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Times New Roman', serif;
 }
 img {
   max-width: 100%;
@@ -4844,7 +4844,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Times New Roman', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5168,7 +5168,7 @@ hr::after {
  */
 .my-navbar {
   list-style-type: none;
-  background-color: #e8f4f8;
+  background-color: #fff;
   color: #333;
 }
 .my-navbar li {
@@ -5206,7 +5206,7 @@ hr::after {
 * Breadcrumb layout
 */
 .inner-wrap-breadcrumb {
-  background-color: #e8f4f8;
+  background-color: #fff;
 }
 .inner-wrap-breadcrumb a {
   color: #333;
@@ -5248,7 +5248,7 @@ hr::after {
   max-width: 1100px;
 }
 .inner-wrap-main {
-  background-color: #e8f4f8;
+  background-color: #fff;
   color: #333;
 }
 .region-main {
@@ -5284,7 +5284,7 @@ hr::after {
 * Sidebar layout
 */
 .wrap-sidebar {
-  background-color: #e8f4f8;
+  background-color: #fff;
   color: #333;
 }
 .wrap-sidebar ul {
@@ -5294,7 +5294,7 @@ hr::after {
   padding-bottom: 24px;
 }
 .wrap-sidebar ul li:hover {
-  background-color: #c1e1ec;
+  background-color: #e6e6e6;
 }
 .wrap-sidebar ul li a {
   color: #333;
@@ -5390,7 +5390,7 @@ hr::after {
   clear: both;
   outline: 1px black solid;
   overflow: auto;
-  background-color: #c1e1ec;
+  background-color: #e6e6e6;
 }
 .byline p {
   padding: 30px 30px 50px 30px;
@@ -5412,7 +5412,7 @@ hr::after {
   margin-left: auto;
   max-width: 100%;
   border-bottom: 1px solid black;
-  background-color: #e8f4f8;
+  background-color: #fff;
   color: #333;
 }
 .inner-wrap-header .row {
@@ -5458,7 +5458,7 @@ hr::after {
 * Footer layout
 */
 .outer-wrap-footer {
-  background-color: #411608;
+  background-color: #333;
   color: #fff;
 }
 .footer-column {
