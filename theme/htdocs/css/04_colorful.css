@@ -5280,6 +5280,12 @@ hr::after {
 .region-main a {
   color: #4c0d6f;
 }
+.region-main h1 a {
+  color: #222;
+}
+.region-main h1 a:hover {
+  background-color: #ccc;
+}
 /**
 * Sidebar layout
 */

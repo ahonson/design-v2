@@ -1,6 +1,12 @@
 Revision history
 ===================
 
+v5.0.0 (2020-01-10)
+-------------------
+
+* Adding a blog with images and a report on loading times.
+
+
 v4.0.1 (2020-01-04)
 -------------------
 

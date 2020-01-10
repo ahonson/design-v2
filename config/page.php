@@ -24,6 +24,7 @@ return [
                 // "css/kmom02.css",
                 // "css/kmom03.css",
                 "css/kmom04.css",
+                // "css/kmom05.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
