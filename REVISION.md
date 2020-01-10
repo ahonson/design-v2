@@ -1,6 +1,12 @@
 Revision history
 ===================
 
+v5.0.1 (2020-01-10)
+-------------------
+
+* Setting the stylesheet for kmom05 as default
+
+
 v5.0.0 (2020-01-10)
 -------------------
 
