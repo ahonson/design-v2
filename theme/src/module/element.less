@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+@bgColorHtml: #eee;
+@bgColorBody: #ff3;
+@colorBody: #333;
+@bgColorFooter: @bgColorHtml;
+@colorFooter: #fff;
+@bgHeader: #993d71;
+@colorHeader: beige;
+@bgNavbar: @bgHeader;
+@colorNavbar: @colorHeader;
+@bgMain: @bgColorBody;
+@colorMain: @colorBody;
+@colorMainLInk: @colorSidebar;
+@bgSidebar: #d2f68a;
+@colorSidebar: #ccc;
+@bgSidebarLink: @bgSidebar;
+@colorSidebarLink: @colorSidebar;
+@bgBreadcrumb: @bgColorBody;
+@colorBreadcrumb: @colorBody;
+@bgNavLinkHover: #000;
+@colorNavLinkHover: black;
+@bgByline: saturate(@bgMain, 40%);
+@colorByline: saturate(@colorMain, 40%);
+@bgMusicList: @bgHeader;
+@colorMusicList: #fff;
+@fontFamilyHeadings: 'Impact', 'Permanent Marker', cursive;
+@fontFamilyBody: 'Comic Sans MS', 'Kalam', cursive;
+
+
+body {
+    background: url("../../htdocs/img/so-white.png");
+}
+
+.wrap-sidebar.has-sidebar-left {
+    transform: rotate(-1deg);
+    background-image: url("../../htdocs/img/prism.png");
+}
+
+.wrap-sidebar.has-sidebar-right {
+    transform: rotate(1deg);
+    background-image: url("../../htdocs/img/prism.png");
+}
+
+.inner-wrap-main {
+    background: url("../../htdocs/img/so-white.png");
+}
+
+.inner-wrap-header, .my-navbar {
+    background-image: url("../../htdocs/img/prism.png");
+}
+
+.outer-wrap-footer {
+    background: linear-gradient(25deg, transparent 75px, #001122 75px, transparent 80px),
+              linear-gradient(-25deg, transparent 75px, #001122 75px, transparent 80px);
+    background-size: 100px 100px;
+    background-color: #123;
+    box-shadow: 0 50vh 0 50vh #123;
+    // background-image: url("../../htdocs/img/prism.png");
+}
+
+.region-header-col-1 a {
+    color: #ccc;
+}
+
+.region-main a {
+    color: #333;
+}
+
+.inner-wrap-breadcrumb {
+    background: transparent;
+}
+
+.music ul li {
+    background-image: url("../../htdocs/img/prism.png");
+}
+
+.block a {
+    color: #ddd;
+}
+
+.wrap-sidebar ul li:hover {
+    background-color: #000;
+}
+
+.byline {
+    background-color: #ccc;
+    transform: rotate(-1deg);
+}
+
+.byline a {
+    color: #333;
+}
+
+.my-navbar li ul {
+    display: block;
+}

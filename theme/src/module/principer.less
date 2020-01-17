@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap&subset=latin-ext');
+
+@bgColorHtml: #000;
+@bgColorBody: #333;
+@colorBody: #ddd;
+@bgColorFooter: @bgColorHtml;
+@colorFooter: #fff;
+@bgHeader: #111;
+@colorHeader: #eee;
+@bgNavbar: @bgHeader;
+@colorNavbar: @colorHeader;
+@bgMain: @bgColorBody;
+@colorMain: @colorBody;
+@colorMainLInk: #fff;
+@bgSidebar: @bgMain;
+@colorSidebar: @colorMain;
+@bgSidebarLink: @bgSidebar;
+@colorSidebarLink: @colorSidebar;
+@bgBreadcrumb: @bgColorBody;
+@colorBreadcrumb: @colorBody;
+@bgNavLinkHover: #333;
+@colorNavLinkHover: black;
+@bgByline: saturate(@bgMain, 40%);
+@colorByline: saturate(@colorMain, 40%);
+@bgMusicList: #000;
+@colorMusicList: #fff;
+@fontFamilyHeadings: 'Roboto', 'Patua One', cursive;
+@fontFamilyBody: 'Lato', 'Ubuntu Mono', monospace;
+
+
+html {
+    background: repeating-linear-gradient(135deg, rgb(18, 182, 56) 0px, rgb(18, 182, 56) 16px,rgb(13, 209, 68) 16px, rgb(13, 209, 68) 108px,rgb(23, 154, 43) 108px,  rgb(23, 154, 43) 246px);
+    background-attachment: fixed;
+}
+
+body {
+    background: repeating-linear-gradient(45deg, rgb(99, 189, 51) 0px, rgb(99, 189, 51) 180px,rgb(119, 206, 80) 180px, rgb(119, 206, 80) 360px,rgb(138, 222, 108) 360px, rgb(138, 222, 108) 540px);
+    opacity: 0.9;  /* a child element can never have opacity higher than its parent*/
+}
+
+.region-flash img {
+    // visibility: hidden;
+    content: url("../../htdocs/image/green.jpg?width=1100&height=150&crop-to-fit&area=0,0,30,0");
+    // height: 150px;
+}
+
+code {
+    background-color: #111;
+}
+
+.region-header-col-1 a {
+    color: #ccc;
+}
+
+.my-navbar li a {
+    text-shadow: 3px 4px 2px #1e1;
+}
+
+.region-sidebar-left li a {
+    box-shadow: 9px 3px;
+}
+
+.region-sidebar-right a {
+    color: #efe;
+}
+
+.region-main h1 a {
+    color: #efe;
+}
+
+.region-main h1 a:hover {
+    color: #333;
+}
+
+@keyframes headerstyle {
+    from {
+        background-color: #111;
+    }
+    to {
+        background-color: #474;
+    }
+}
+
+.outer-wrap-footer {
+    box-shadow: 0 50vh 0 50vh #000;
+}
+
+.inner-wrap-breadcrumb {
+    background-color: @bgBreadcrumb;
+    // & a {
+    //     color: @colorBreadcrumb;
+    // }
+    animation-name: headerstyle;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.my-navbar li ul {
+    display: block;
+}

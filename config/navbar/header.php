@@ -89,6 +89,21 @@ return [
                         "url" => "rapport/laddningstid",
                         "title" => "Webbplatsers laddningstider",
                     ],
+                    [
+                        "text" => "Designprincip",
+                        "url" => "rapport/designprincip",
+                        "title" => "Webbplatsers designprinciper",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Tema med designelement",
+                    ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Tema med designprinciper",
+                    ],
                 ],
             ],
         ],

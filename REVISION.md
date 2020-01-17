@@ -1,6 +1,12 @@
 Revision history
 ===================
 
+v6.0.0 (2020-01-17)
+-------------------
+
+* Adding two themes with and a report on design principles
+
+
 v5.0.1 (2020-01-10)
 -------------------
 

@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom05.
+ * Stylesheet for design kmom06.
  *
- * This stylesheet is for the design course and kmom05 where we use LESS.
+ * This stylesheet is for the design course and kmom06 where we use LESS.
  */
 /**
  * Mixins.
@@ -4817,15 +4817,15 @@ template {
 }
 html {
   overflow-y: scroll;
-  background-color: #e8f4f8;
+  background-color: #000;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #e8f4f8;
-  font-family: 'Raleway', sans-serif;
-  font: 20px/1.2 'Raleway', sans-serif;
+  color: #ddd;
+  background-color: #333;
+  font-family: 'Lato', 'Ubuntu Mono', monospace;
+  font: 20px/1.2 'Lato', 'Ubuntu Mono', monospace;
 }
 h1,
 h2,
@@ -4833,7 +4833,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Roboto', 'Patua One', cursive;
 }
 img {
   max-width: 100%;
@@ -4844,7 +4844,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Roboto', 'Patua One', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5168,8 +5168,8 @@ hr::after {
  */
 .my-navbar {
   list-style-type: none;
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #111;
+  color: #eee;
 }
 .my-navbar li {
   display: inline-block;
@@ -5179,7 +5179,7 @@ hr::after {
   display: none;
 }
 .my-navbar li:hover {
-  background-color: #65acc9;
+  background-color: #333;
 }
 .my-navbar li a {
   text-decoration: none;
@@ -5206,10 +5206,10 @@ hr::after {
 * Breadcrumb layout
 */
 .inner-wrap-breadcrumb {
-  background-color: #e8f4f8;
+  background-color: #333;
 }
 .inner-wrap-breadcrumb a {
-  color: #333;
+  color: #ddd;
 }
 .breadcrumb-list li {
   display: inline;
@@ -5248,8 +5248,8 @@ hr::after {
   max-width: 1100px;
 }
 .inner-wrap-main {
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #333;
+  color: #ddd;
 }
 .region-main {
   display: inline;
@@ -5278,7 +5278,7 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .region-main a {
-  color: #00f;
+  color: #fff;
 }
 .region-main h1 a {
   color: #222;
@@ -5290,8 +5290,8 @@ hr::after {
 * Sidebar layout
 */
 .wrap-sidebar {
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #333;
+  color: #ddd;
 }
 .wrap-sidebar ul {
   list-style: none;
@@ -5300,10 +5300,10 @@ hr::after {
   padding-bottom: 24px;
 }
 .wrap-sidebar ul li:hover {
-  background-color: #c1e1ec;
+  background-color: #1a1a1a;
 }
 .wrap-sidebar ul li a {
-  color: #333;
+  color: #ddd;
   text-decoration: none;
 }
 .region-sidebar-left,
@@ -5380,7 +5380,7 @@ hr::after {
 .music ul li {
   list-style-type: none;
   padding: 12px;
-  background-color: #147;
+  background-color: #000;
   border-radius: 10px;
   margin-bottom: 12px;
   text-align: center;
@@ -5396,7 +5396,7 @@ hr::after {
   clear: both;
   outline: 1px black solid;
   overflow: auto;
-  background-color: #c1e1ec;
+  background-color: #4d4d4d;
 }
 .byline p {
   padding: 30px 30px 50px 30px;
@@ -5418,8 +5418,8 @@ hr::after {
   margin-left: auto;
   max-width: 100%;
   border-bottom: 1px solid black;
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #111;
+  color: #eee;
 }
 .inner-wrap-header .row {
   margin-right: auto;
@@ -5464,7 +5464,7 @@ hr::after {
 * Footer layout
 */
 .outer-wrap-footer {
-  background-color: #411608;
+  background-color: #000;
   color: #fff;
 }
 .footer-column {
@@ -5933,3 +5933,100 @@ figure.figure-codepen {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwaPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Patua One'), local('PatuaOne-Regular'), url(https://fonts.gstatic.com/s/patuaone/v10/ZXuke1cDvLCKLDcimxB44_lr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://fonts.gstatic.com/s/ubuntumono/v9/KFOjCneDtsqEr0keqCMhbCc0CsE.ttf) format('truetype');
+}
+html {
+  background: repeating-linear-gradient(135deg, #12b638 0px, #12b638 16px, #0dd144 16px, #0dd144 108px, #179a2b 108px, #179a2b 246px);
+  background-attachment: fixed;
+}
+body {
+  background: repeating-linear-gradient(45deg, #63bd33 0px, #63bd33 180px, #77ce50 180px, #77ce50 360px, #8ade6c 360px, #8ade6c 540px);
+  opacity: 0.9;
+  /* a child element can never have opacity higher than its parent*/
+}
+.region-flash img {
+  content: url("../../htdocs/image/green.jpg?width=1100&height=150&crop-to-fit&area=0,0,30,0");
+}
+code {
+  background-color: #111;
+}
+.region-header-col-1 a {
+  color: #ccc;
+}
+.my-navbar li a {
+  text-shadow: 3px 4px 2px #1e1;
+}
+.region-sidebar-left li a {
+  box-shadow: 9px 3px;
+}
+.region-sidebar-right a {
+  color: #efe;
+}
+.region-main h1 a {
+  color: #efe;
+}
+.region-main h1 a:hover {
+  color: #333;
+}
+@keyframes headerstyle {
+  from {
+    background-color: #111;
+  }
+  to {
+    background-color: #474;
+  }
+}
+.outer-wrap-footer {
+  box-shadow: 0 50vh 0 50vh #000;
+}
+.inner-wrap-breadcrumb {
+  background-color: #333;
+  animation-name: headerstyle;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.my-navbar li ul {
+  display: block;
+}

@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom05.
+ * Stylesheet for design kmom06.
  *
- * This stylesheet is for the design course and kmom05 where we use LESS.
+ * This stylesheet is for the design course and kmom06 where we use LESS.
  */
 /**
  * Mixins.
@@ -4817,15 +4817,15 @@ template {
 }
 html {
   overflow-y: scroll;
-  background-color: #e8f4f8;
+  background-color: #eee;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #e8f4f8;
-  font-family: 'Raleway', sans-serif;
-  font: 20px/1.2 'Raleway', sans-serif;
+  background-color: #ff3;
+  font-family: 'Comic Sans MS', 'Kalam', cursive;
+  font: 20px/1.2 'Comic Sans MS', 'Kalam', cursive;
 }
 h1,
 h2,
@@ -4833,7 +4833,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Impact', 'Permanent Marker', cursive;
 }
 img {
   max-width: 100%;
@@ -4844,7 +4844,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Impact', 'Permanent Marker', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5168,8 +5168,8 @@ hr::after {
  */
 .my-navbar {
   list-style-type: none;
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #993d71;
+  color: beige;
 }
 .my-navbar li {
   display: inline-block;
@@ -5179,7 +5179,7 @@ hr::after {
   display: none;
 }
 .my-navbar li:hover {
-  background-color: #65acc9;
+  background-color: #000;
 }
 .my-navbar li a {
   text-decoration: none;
@@ -5206,7 +5206,7 @@ hr::after {
 * Breadcrumb layout
 */
 .inner-wrap-breadcrumb {
-  background-color: #e8f4f8;
+  background-color: #ff3;
 }
 .inner-wrap-breadcrumb a {
   color: #333;
@@ -5248,7 +5248,7 @@ hr::after {
   max-width: 1100px;
 }
 .inner-wrap-main {
-  background-color: #e8f4f8;
+  background-color: #ff3;
   color: #333;
 }
 .region-main {
@@ -5278,7 +5278,7 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .region-main a {
-  color: #00f;
+  color: #ccc;
 }
 .region-main h1 a {
   color: #222;
@@ -5290,8 +5290,8 @@ hr::after {
 * Sidebar layout
 */
 .wrap-sidebar {
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #d2f68a;
+  color: #ccc;
 }
 .wrap-sidebar ul {
   list-style: none;
@@ -5300,10 +5300,10 @@ hr::after {
   padding-bottom: 24px;
 }
 .wrap-sidebar ul li:hover {
-  background-color: #c1e1ec;
+  background-color: #c0f25b;
 }
 .wrap-sidebar ul li a {
-  color: #333;
+  color: #ccc;
   text-decoration: none;
 }
 .region-sidebar-left,
@@ -5380,7 +5380,7 @@ hr::after {
 .music ul li {
   list-style-type: none;
   padding: 12px;
-  background-color: #147;
+  background-color: #993d71;
   border-radius: 10px;
   margin-bottom: 12px;
   text-align: center;
@@ -5396,7 +5396,7 @@ hr::after {
   clear: both;
   outline: 1px black solid;
   overflow: auto;
-  background-color: #c1e1ec;
+  background-color: #ffff00;
 }
 .byline p {
   padding: 30px 30px 50px 30px;
@@ -5418,8 +5418,8 @@ hr::after {
   margin-left: auto;
   max-width: 100%;
   border-bottom: 1px solid black;
-  background-color: #e8f4f8;
-  color: #333;
+  background-color: #993d71;
+  color: beige;
 }
 .inner-wrap-header .row {
   margin-right: auto;
@@ -5464,7 +5464,7 @@ hr::after {
 * Footer layout
 */
 .outer-wrap-footer {
-  background-color: #411608;
+  background-color: #eee;
   color: #fff;
 }
 .footer-column {
@@ -5933,3 +5933,69 @@ figure.figure-codepen {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url(https://fonts.gstatic.com/s/permanentmarker/v9/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kalam'), local('Kalam-Regular'), url(https://fonts.gstatic.com/s/kalam/v10/YA9dr0Wd4kDdMthROCI.ttf) format('truetype');
+}
+body {
+  background: url("../../htdocs/img/so-white.png");
+}
+.wrap-sidebar.has-sidebar-left {
+  transform: rotate(-1deg);
+  background-image: url("../../htdocs/img/prism.png");
+}
+.wrap-sidebar.has-sidebar-right {
+  transform: rotate(1deg);
+  background-image: url("../../htdocs/img/prism.png");
+}
+.inner-wrap-main {
+  background: url("../../htdocs/img/so-white.png");
+}
+.inner-wrap-header,
+.my-navbar {
+  background-image: url("../../htdocs/img/prism.png");
+}
+.outer-wrap-footer {
+  background: linear-gradient(25deg, transparent 75px, #001122 75px, transparent 80px), linear-gradient(-25deg, transparent 75px, #001122 75px, transparent 80px);
+  background-size: 100px 100px;
+  background-color: #123;
+  box-shadow: 0 50vh 0 50vh #123;
+}
+.region-header-col-1 a {
+  color: #ccc;
+}
+.region-main a {
+  color: #333;
+}
+.inner-wrap-breadcrumb {
+  background: transparent;
+}
+.music ul li {
+  background-image: url("../../htdocs/img/prism.png");
+}
+.block a {
+  color: #ddd;
+}
+.wrap-sidebar ul li:hover {
+  background-color: #000;
+}
+.byline {
+  background-color: #ccc;
+  transform: rotate(-1deg);
+}
+.byline a {
+  color: #333;
+}
+.my-navbar li ul {
+  display: block;
+}
