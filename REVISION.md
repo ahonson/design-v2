@@ -1,6 +1,10 @@
 Revision history
 ===================
 
+v10.0.0 (2020-05-31)
+
+* Adding two reports on web design and a redovisningstext for kmom10
+
 v6.0.0 (2020-01-17)
 -------------------
 
